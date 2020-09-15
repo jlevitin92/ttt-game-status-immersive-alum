@@ -7,7 +7,7 @@ end
 
 def won?(board)
   for x in WIN_COMBINATIONS |x|
-
+    binding.binding.pry
   end
 end
 
