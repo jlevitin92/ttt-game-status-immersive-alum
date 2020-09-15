@@ -6,7 +6,7 @@ def position_taken?(board, index)
 end
 
 def won?(board)
-  WIN_COMBINATIONS.each do 
+  WIN_COMBINATIONS.each do |win|
     binding.pry
   end
 end
