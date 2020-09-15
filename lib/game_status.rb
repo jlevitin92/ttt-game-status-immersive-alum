@@ -6,7 +6,7 @@ def position_taken?(board, index)
 end
 
 def won?(board)
-  for x in WIN_COMBINATIONS |x|
+  for x in WIN_COMBINATIONS |y|
     binding.pry
   end
 end
