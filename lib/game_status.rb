@@ -1,11 +1,14 @@
 # Helper Method
+require 'pry'
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
 def won?(board)
-  board[1]
+  for x in WIN_COMBINATIONS |x|
+
+  end
 end
 
 # Define your WIN_COMBINATIONS constant
