@@ -8,6 +8,9 @@ end
 def won?(board)
   WIN_COMBINATIONS.each do |win|
     binding.pry
+    if 
+
+    end
   end
 end
 
